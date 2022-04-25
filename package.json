@@ -31,7 +31,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint src/**",
-    "fix": "eslint src/** --fix"
+    "fix": "eslint src/** --fix",
+    "prepare": "husky install"
   },
   "browserslist": {
     "production": [
