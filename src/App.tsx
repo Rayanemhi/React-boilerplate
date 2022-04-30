@@ -1,7 +1,8 @@
 import React from "react";
+import Button from "@mui/material/Button";
 
 function App() {
-  return <div className="App">Hello World</div>;
+  return <Button variant="contained">Hello Redlab!</Button>;
 }
 
 export default App;
