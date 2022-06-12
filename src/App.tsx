@@ -1,8 +1,15 @@
 import React from "react";
-import Button from "@mui/material/Button";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/home/Home";
 
 function App() {
-  return <Button variant="contained">Hello Redlab!</Button>;
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
 export default App;
